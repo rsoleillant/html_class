@@ -7,6 +7,8 @@
   Version : 1.0
   Author : Rémy Soleillant
   Description : Un GSA basé sur l'objet AjaxMultiselect
+  
+  Modif du ajax GSA
  * ****************************************************************************** */
 
 class ajaxGSA {
