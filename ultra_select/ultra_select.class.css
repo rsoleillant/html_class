@@ -1,0 +1,291 @@
+/**
+* @author ROBERT Romain
+	
+------ Style des ultra_select -------------
+
+*/
+
+/*Conteneur div*/
+.ultra_select__wrapper 
+{
+    display: inline-block;
+    vertical-align: top;
+    height: 33px;
+    background: whitesmoke;
+    min-width: 95%;
+    max-width: 95%;
+    width: 95%;
+    cursor: pointer;
+}
+
+
+/* Conteneur UL des options */
+.ultra_select__ul
+{
+    padding: 0px;
+    height: 225px;
+
+    max-width: 100%;
+    min-width: 100%;
+    width: 100%;
+    
+    overflow: auto;
+    user-select: none;
+    -moz-user-select : none;
+    
+    cursor: initial;
+    /*border: 1px solid black;*/
+    border-color: #959595;
+    margin: -3px;
+    border-radius: 4px;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    background: white;
+    
+    box-shadow: inset 0px 7px 5px -5px rgba(50, 50, 50, 0.35)
+
+}
+
+
+
+/*L'ultra select'*/
+.ultra_select
+{
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background: whitesmoke;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    
+	
+}
+
+/* L'ultra select en mode agrandit'*/
+.ultra_select__expand
+{
+    /*box-shadow: 0px 0px 10px rgba(0,0,0,0.5);*/
+    box-shadow: 0px 10px 10px 2px rgba(0,0,0,0.2);
+}
+
+
+
+
+/* L'ultra select en mode réduit'*/
+.ultra_select__collapse
+{
+	
+}
+.ultra_select__collapse>.ultra_select__ul
+{
+    height: 0px;
+}
+
+.ultra_select__group, .ultra_select__option_add
+{
+    padding: 5px 0px 0px 5px;
+    white-space: nowrap;
+	overflow: hidden;
+}
+
+
+.ultra_select__group_checkbox
+{
+    zoom: 1.5;
+    vertical-align: middle;
+}
+
+.ultra_select__group_label
+{
+    font-weight: bold;
+    font-size: 13px;
+    padding-left: 10px;
+    
+}
+
+
+/*L'input de filtre'*/
+.ultra_select__input_search
+{
+    background: white url(images/ultra_select/search-icon.png) no-repeat scroll right;
+    height: 25px;
+    border-radius: 5px 5px 0px 0px;
+    background-color: rgba(0,0,0,0.0001);
+    width: 100%;
+}
+
+
+
+/* La sélection utilisateur en mode collapse*/
+.ultra_select__selection > td
+{
+    height: 25px;
+    /*border: 1px solid rgb(169,169,169);*/
+    background: white url(images/ultra_select/dropdown.svg) no-repeat scroll right;
+    background-size: 20px;
+    /*border-radius: 3px;*/
+    
+}
+
+.ultra_select__selection:hover > td
+{
+    background: white url(images/ultra_select/dropdown_hover.svg) no-repeat scroll right;
+    background-size: 20px;
+}
+
+.ultra_select__selection_div
+{
+    overflow: hidden;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /*max-width: 200px;*/
+    /*padding-right: 15px;*/
+    width: 90%;
+    max-width: 90%;
+    position: absolute;
+    display: block;
+    margin-top: -7px
+	
+	
+}
+
+
+
+/*Conteneur d'une option (li)'*/
+.ultra_select__option
+{
+    /*padding: 2px 0px 0px 7px;*/
+    padding: 5px 0px 0px 5px;
+    border-left: 1px solid white;
+    /*margin-left: 7px;*/
+    white-space: nowrap;
+    
+}
+.ultra_select__option_checkbox_add
+{
+    margin-left: 3px;
+}
+
+/* Une option survolé */
+.ultra_select__option:hover > .ultra_select__option_label
+{
+    color: #ffffff !important;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #003399;
+    background-repeat: repeat-x;
+    border-color: #316293 #316293 #29547E !important;
+    background: #356aa0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;	
+
+}
+
+/*Une option sélectionnée */
+.ultra_select__option_selected
+{
+    color: #ffffff !important;
+    border-color: #316293 #316293 #29547E !important;
+    text-decoration: none;
+    background-color: #0081c2;
+    background-repeat: repeat-x;
+    outline: 0;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background: #2f7eb6 !important; /* Old browsers */
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background-position: 0 0;
+
+}
+
+
+
+
+
+/*La checkbox d'une option'*/
+.ultra_select__option_checkbox
+{
+    /*zoom: 1.5;*/
+    zoom: 1.5;
+    -moz-zoom: 1.5;
+    /*transform: scale(1.5);*/
+    vertical-align: middle;
+}
+
+/* Select simple ? Pas de checkbox, ni de radio ... */
+.ultra_select__option_radio
+{
+    opacity: 0;
+    /*opacity: 1;*/
+}
+.ultra_select__option_radio:hover, .ultra_select__option_radio:focus, .ultra_select__option_radio:checked
+{
+    /*opacity: 1;*/
+}
+
+
+
+
+/*Keypress*/
+.ultra_select__option_checkbox:focus ~ .ultra_select__option_label, .ultra_select__option_checkbox:focus
+{
+    color: #ffffff !important;
+    border-color: #316293 #316293 #29547E !important;
+    text-decoration: none;
+    background-color: #0081c2;
+    background-repeat: repeat-x;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background: #356aa0; /* Old browsers */
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background-position: 0 0;
+    outline: 0;
+    /*outline: 2px solid #2f7eb6;*/
+}
+
+
+
+/*Le libellé d'une option)*/
+.ultra_select__option_label, .ultra_select__group_label
+{
+    vertical-align: middle;
+    display: inline-block;
+    width: 90%;
+    line-height: 20px;
+    font-size: 13px;
+    padding-left: 10px;
+    border-radius: 5px;
+    
+    margin-left: 3px;
+    
+}
+
+
+/* Survol d'un group d'option */
+.ultra_select__group:hover > .ultra_select__group_label, .ultra_select__group_selected > .ultra_select__group_label
+
+{
+    color: #ffffff !important;
+    background: lightslategrey;
+    text-shadow: 0px 0px 1px rgba(0,0,0,1);
+    
+}
+
+/* Group d'option sélectionné "*/
+.ultra_select__group_selected > .ultra_select__group_label
+{
+    text-decoration: underline;
+}
+
+/* Survol d'un group d'option */
+.ultra_select__group:hover > .ultra_select__group_label ~ .ultra_select__option
+{
+    border-left: 1px dashed rgba(0,0,0,0.4);
+}
+
+
+
+

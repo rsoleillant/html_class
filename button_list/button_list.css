@@ -1,0 +1,68 @@
+/* Table principale */
+.button_list_table{
+    /*background-color:rgb(175,175,175);*/
+    width:50px;
+    height:30px;
+    border-radius:5px;
+    /*border : solid black 1px;*/
+    //border : 2px solid activeborder;
+    border : 2px solid #B4B4B4;
+}
+
+
+/* Table principale activé / utilisé */
+.button_list_table_actif
+{
+    background-color: bisque/*wheat*/;
+}
+
+/* Event mouse enter */
+.button_list_table:hover{
+    background-color:rgb(223,223,223);
+    /*border-color:rgb(175,175,175);*/
+    border-color: #666666;
+}
+.button_list_table_hover{
+    background-color:rgb(223,223,223);
+    border-color:rgb(175,175,175);
+    box-shadow: 2px 2px 4px #656565;
+
+}
+
+/* Action pour ouverture menu */
+.button_list_arrow{
+    width:12px;
+}
+
+/* Taille des images */
+.button_list_unit{
+    /*width:24px;*/
+    /*height:24px;*/
+}
+
+/* Table du menu */
+.button_list__constructTableForListButton{
+    /*border : solid black 1px;*/
+    border : 2px solid rgb(175, 175, 175);
+    background-color:white;
+    box-shadow: 5px 5px 6px #656565;
+    margin-top: 2px;
+    border-radius: 4px;
+
+    /** Alignement au bord gauche du parent **/
+    width: 140px;
+    left: -24px;
+    margin-left: 50%;
+    right: -140px;
+    width: 140px;
+
+
+}
+
+/* Tr du menu*/
+.button_list__constructTableForListButton tr:hover{
+    background-color:rgb(223,223,223);
+    cursor:pointer;
+
+}
+

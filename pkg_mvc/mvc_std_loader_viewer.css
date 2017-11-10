@@ -1,0 +1,29 @@
+.bt_pagination{
+ background:url(/images/page_30x30.png) no-repeat;
+ width:30px;
+ height:30px;
+ border:none;
+ padding:0px;
+ cursor:pointer;
+
+}
+
+.bt_pagination:hover{
+  	filter: invert(100%);  
+}
+
+.bt_pagination_selected{
+  	filter: sepia(100%);  
+}
+
+.mvc_std_loader_viewer__ref_tri{
+ display:none;
+}
+
+.mvc_std_loader_viewer__constructTableForSortErgonomie02{
+ background-color:white;
+ border-radius:5px;
+ border : solid black 1px;
+ box-shadow: 10px 10px 5px #888888;
+
+}
