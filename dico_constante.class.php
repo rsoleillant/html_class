@@ -1,4 +1,8 @@
 <?php
+/**
+ * Et le cartouche ???
+ **/
+
 class dico_constante {
     //**** attribute *************************************************************
     protected $stri_table;
