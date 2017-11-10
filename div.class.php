@@ -6,6 +6,8 @@ Create Date : 31/12/2007
  Version : 1.0
  Author : Rémy Soleillant
  Description : élément html <div>
+ 
+ Mise à jour div
 ********************************************************************************/
 class div {
    
