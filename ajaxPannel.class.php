@@ -7,6 +7,7 @@ Create Date : 09/02/2012
  Author : Rémy Soleillant
  Description : Permet de gérer un panneau d'affichage qui sera chargé en ajax.
  
+ Modif ajax pannel
 ********************************************************************************/
 //dépendance de la classe sur le fichier js : includes/modalBox.js
 include_once($_SERVER['DOCUMENT_ROOT']."includes/classes/html_class/serialisable.class.php");
