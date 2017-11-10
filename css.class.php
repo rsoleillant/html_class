@@ -6,6 +6,8 @@ Create Date : 20/08/2009
  Version : 1.1
  Author : Yannick MARION & Yoann Frommelt
  Description : permet de stocker du style css
+ 
+ Modif class css.class.php
 ********************************************************************************/
 class css {
    
