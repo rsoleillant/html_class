@@ -7,6 +7,8 @@
   Author : Yoann Frommelt
   Description : élément html <button></button>
   Source : http://www.w3schools.com/tags/tag_button.asp
+  
+  modification button_custom
 ********************************************************************************/
 
   
