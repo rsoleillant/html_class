@@ -7,6 +7,8 @@ Create Date : 2/11/2007
  Author : Emilie Merlat
  Description : permet de gérer le carnet d'adresses
  Doc : \\stpr0341\Partage_hotline\Analyse_fonctionnel_asisline\mod_mail\man_techn_mail.txt
+ 
+ Moficiation du fichier adress 
 *******************************************************************************/
 
 class Address 
