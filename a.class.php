@@ -7,8 +7,7 @@ Create Date : 22/05/2006
  Author : Rémy Soleillant
  Description : élément html <a>
  
- Modificiation class a sur branche01
- Modification  sur branche 02
+Modif sur branche 02
 ********************************************************************************/
 class a {
    
