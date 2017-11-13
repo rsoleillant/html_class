@@ -6,6 +6,8 @@ Create Date : 22/05/2006
  Version : 1.1
  Author : Rémy Soleillant
  Description : élément html <a>
+ 
+ Modif branche 01 
 ********************************************************************************/
 class a {
    
