@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+   </head>
+   <body>
+   
+    Test gestionnaire de version
+    
+<<<<<<< HEAD
+    Modification depuis le repository rrobert
+    
+    Modification 1.0 depuis rsoleillant
+=======
+    Modification 2.0 depuis le repository rrobert
+>>>>>>> ab34d9da7b1380589b3f3db39d992f93b6a49c72
+   </body>
+</html>
