@@ -8,6 +8,7 @@ Create Date : 22/05/2006
  Description : élément html <a>
  
  Modif branche 01 
+ Modif sur branche 02
 ********************************************************************************/
 class a {
    
